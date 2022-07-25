@@ -132,7 +132,7 @@ public class AppUpdate {
                                             commonDialog.dismiss();
                                             DownloadManager.getInstance(context)
                                                     .setApkName(AuxiliaryUtil.getFileName(apk_url))
-                                                    .setApkUrl("http://version-server.sanzhisoft.com/" + apk_url)
+                                                    .setApkUrl("http://apk.sanzhisoft.com/" + apk_url)
                                                     .setSmallIcon(smallIcon)
                                                     .download();
                                         }
